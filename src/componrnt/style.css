@@ -22,6 +22,7 @@ nav {
     position: sticky;
     top: 0;
     z-index: 100;
+    background-color: white;
 }
 
 .Black {
@@ -231,6 +232,7 @@ span {
     width: 185px;
     transform: translateY(-60px) scale(1.01);
     transition: transform 0.3s;
+    overflow: hidden;
 }
 .MEN{
     font-weight: 700;
@@ -258,6 +260,7 @@ span {
     width: 185px;
     transform: translateY(-60px) scale(1.01);
     transition: transform 0.2s;
+    overflow: hidden;
 }
 
 .img-div:hover {

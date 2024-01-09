@@ -101,14 +101,6 @@ function Shoes() {
             <button id='i' onClick={add5}>ADD-TO-CART</button>
           </div>
         </div>
-        <div className="cart">
-          <h1>Shopping Cart</h1>
-          <ul>
-            {counter.map((item, index) => (
-              <li key={index}>{item}</li>
-            ))}
-          </ul>
-        </div>
         <Footerf />
       </div>
     </>
